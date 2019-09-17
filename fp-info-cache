@@ -1,4 +1,4 @@
-149012375490840
+150600681412284
 Air_Coils_SML_NEOSID
 Neosid_Air-Coil_SML_1turn_HDM0131A
 
@@ -51883,3 +51883,10 @@ resistor 1206
 0
 2
 1
+odu-pcb
+SW_PUSH_6mm_h4.3mm
+tactile push button, 6x6mm e.g. PHAP33xx series, height=4.3mm
+tact sw push 6mm
+0
+4
+2

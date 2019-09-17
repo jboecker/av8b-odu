@@ -1,4 +1,4 @@
-update=2019-09-15 14:15:33
+update=2019-09-18 01:17:28
 version=1
 last_client=pcbnew
 [general]
@@ -40,7 +40,7 @@ MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.4
 ViaDiameter1=1.6
-ViaDrill1=0.4
+ViaDrill1=0.8
 dPairWidth1=0.5
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -240,7 +240,7 @@ Name=Default
 Clearance=0.4
 TrackWidth=0.4
 ViaDiameter=1.6
-ViaDrill=0.4
+ViaDrill=0.8
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.5
