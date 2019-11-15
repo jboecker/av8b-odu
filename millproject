@@ -1,0 +1,60 @@
+# input and output files
+back=./gerber/odu-pcb-B_Cu.gbr
+drill=./gerber/odu-pcb.drl
+outline=./gerber/odu-pcb-Edge_Cuts.gbr
+output-dir=./g-code
+
+# use metric units
+metric=true
+metricoutput=true
+nog64=true
+
+# do not try to reduce the amount of g-code at the cost of some precision
+# our g-code sender has no limitation on file size
+optimise=false
+
+# only produce one copy of the board
+tile-x=1
+tile-y=1
+
+# use vectorial core
+vectorial=true
+
+# general milling/drilling options:
+zchange=10.0000				# tool change height
+zsafe=2.0000				# travel height
+nog81=true
+nog91-1=true
+zero-start=true
+
+
+# engraving options
+zwork=-0.0500				# depth of cut for copper removal
+mill-feed=800				# feed rate in mm/min
+mill-speed=24000			# RPM
+extra-passes=6
+####offset=0.1790
+mill-diameters=0.358mm
+milling-overlap=0.2mm
+isolation-width=1.0mm
+
+
+# cutout options
+zcut=-1.7000				# total depth of cut
+cut-feed=600				# feed rate
+cut-infeed=0.6000			# depth of cut per pass
+cut-side=auto				# pcb2gcode will decide to generate code to cut from the BACK side since no front side is specified
+cut-speed=6500				# RPM
+cutter-diameter=1.5000		# tool diameter for cutout
+bridges=1.6000
+bridgesnum=2
+zbridges=-0.6000
+
+
+# drilling options
+onedrill=false
+zdrill=-2.6000
+drill-feed=600
+drill-side=auto
+drill-speed=24000
+milldrill=false

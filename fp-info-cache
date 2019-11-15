@@ -1,4 +1,4 @@
-150600681412284
+149069769262550
 Air_Coils_SML_NEOSID
 Neosid_Air-Coil_SML_1turn_HDM0131A
 
@@ -51876,13 +51876,6 @@ THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads
 0
 12
 12
-odu-pcb
-R_1206_0ohm
-Resistor SMD 1206, reflow soldering, Vishay (see dcrcw.pdf)
-resistor 1206
-0
-2
-1
 odu-pcb
 SW_PUSH_6mm_h4.3mm
 tactile push button, 6x6mm e.g. PHAP33xx series, height=4.3mm
